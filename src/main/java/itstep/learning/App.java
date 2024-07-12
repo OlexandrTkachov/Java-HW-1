@@ -1,13 +1,11 @@
 package itstep.learning;
 
-/**
- * Hello world!
- *
- */
+import itstep.learning.Dictionary;
+
 public class App 
 {
     public static void main( String[] args )
     {
-        System.out.println( "Hello World!" );
+        new Dictionary().run();
     }
 }
